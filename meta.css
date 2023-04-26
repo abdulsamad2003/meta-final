@@ -1,0 +1,656 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  overflow-x: hidden;
+  transition: .8s ease-in;
+}
+.main-page {
+  background-image: url(/img/image\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow-x: hidden;
+}
+.all {
+  display: block;
+  width: 100%;
+}
+.upper {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  justify-content: space-around;
+}
+.navbar {
+  display: flex;
+}
+.logo {
+  padding-top: 5px;
+}
+.nav-lines {
+  display: none;
+}
+
+.nav-links {
+  padding-top: 18px;
+  flex-wrap: nowrap;
+}
+.nav-links a {
+  color: #000;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 0 15px;
+}
+.navbar button {
+  border: none;
+  background-color: transparent;
+  border-left: 2px solid #67788a;
+  height: 20px;
+  padding-left: 30px;
+  color: #67788a;
+}
+
+.nav-lines .line {
+  width: 18px;
+  height: 2px;
+  margin: 3px 0;
+  background-color: #333;
+}
+
+.nav-slider {
+  display: none;
+}
+.content {
+  display: flex;
+  margin-top: 80px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 10%;
+}
+.hero-img {
+  width: 557px;
+}
+.content div {
+  margin-right: 10%;
+  margin-top: 20px;
+  margin-left: 7%;
+  color: #444444;
+}
+.content div h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+.content div p {
+  font-size: 18px;
+  width: 85%;
+  line-height: 28px;
+  font-weight: 700;
+}
+.search-bar {
+  display: inline;
+  position: relative;
+  /* width: 100%; */
+  margin-top: 20px;
+}
+.search-bar button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  width: 800px;
+  height: 80px;
+  margin: 50px 25% 30px 20%;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 1000px;
+}
+.search-bar button div {
+  padding: 10px 20px;
+  text-align: left;
+}
+.search-bar button div h4 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.search-bar button div p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.vertical-line {
+  border-right: 2px solid #e9ebee;
+  height: 50px;
+}
+
+/* mid-page css */
+
+.mid-page {
+  display: block;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #f5f6f6;
+  width: 100%;
+  padding-top: 100px;
+  margin-top: 0;
+  margin-right: 5%;
+}
+.mid-page-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  margin: 0 7% 0 5%;
+}
+.mid-page-text h1 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #677b8c;
+  line-height: 31.87px;
+}
+.mid-page-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.56px;
+  width: 520px;
+}
+.images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.first {
+  position: relative;
+  color: transparent;
+  background-image: url(/img/02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  padding-top: 50px;
+  padding-left: 20px;
+  border-radius: 5px;
+  margin: 40px 30px 30px 60px;
+  transition: 1.5s ease-in-out;
+  height: 350px;
+  overflow: hidden;
+}
+.first h1 {
+  margin-top: 60px;
+  width: 70%;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.first P {
+  margin-top: 35px;
+  font-weight: 280;
+  letter-spacing: 2px;
+}
+.first:hover {
+  width: 600px;
+  color: #fff;
+}
+.img2,
+.img4,
+.img6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/HeroImage.png);
+}
+
+/* third page css */
+
+.third-page {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: 5% 10%;
+}
+
+.third-heading {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 0 0 0% 5%;
+}
+.third-heading h1 {
+  font-size: 24px;
+  width: 50%;
+}
+.third-heading p {
+  width: 50%;
+}
+.facebook {
+  margin: 30px 0 0 30px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.t-all {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.f-col {
+  display: block;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.f-col .facebook img {
+  width: 35px;
+}
+.f-col .facebook h1 {
+  padding: 0 0 0 20px;
+}
+
+.s-col {
+  display: block;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.s-col .facebook img {
+  width: 35px;
+}
+.s-col .facebook h1 {
+  padding: 0 0 0 20px;
+}
+
+@media (max-width: 1100px) {
+  .hero-img {
+    width: 450px;
+  }
+  .content div h1 {
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .content div p {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .search-bar button {
+    width: 700px;
+    height: 75px;
+  }
+}
+@media (max-width: 970px) {
+  .logo {
+    width: 100px;
+  }
+  .nav-links {
+    padding-top: 10px;
+  }
+  .nav-links a {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+  .nav-links button {
+    font-size: 12px;
+  }
+  .hero-img {
+    width: 340px;
+  }
+
+  .content div h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .content div p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .search-bar button {
+    width: 620px;
+    height: 60px;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 780px) {
+  .logo {
+    width: 100px;
+  }
+  .nav-links {
+    padding-top: 6px;
+  }
+  .nav-links a {
+    font-size: 0.9rem;
+    padding: 0 7px;
+  }
+  .nav-links button {
+    font-size: 11px;
+  }
+  .hero-img {
+    width: 300px;
+  }
+  .content div h1 {
+    font-size: 36px;
+    font-weight: 550;
+  }
+  .content div p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 550;
+    width: 90%;
+  }
+  .search-bar button {
+    width: 500px;
+    height: 50px;
+    margin-left: 15%;
+  }
+  .search-bar button div h4 {
+    font-size: 10px;
+    padding-top: 5px;
+    font-weight: 350;
+  }
+  .search-bar button div p {
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+  }
+  .vertical-line {
+    height: 40px;
+  }
+}
+@media (max-width: 664px) {
+  .upper {
+    justify-content: center;
+  }
+  .logo {
+    width: 120px;
+  }
+  
+  .nav-links {
+    position: absolute;
+    background-color: #677b8c;
+    width: 50%;
+    height: 100vh;
+    padding: 5% 0 0 5%;
+    left: -100%;
+    top: 0;
+  }
+  .nav-links a {
+    display: block;
+    margin: 10% 0;
+    font-size: 16px;
+    color: #e9ebee;
+  }
+  .nav-links a:hover {
+    font-weight: 800;
+  }
+  .nav-slider {
+    display: block;
+    position: absolute;
+    top: 25px;
+    color: #e9ebee;
+    right: 35px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .nav-lines {
+    display: block;
+    position: absolute;
+    left: 35px;
+    top: 45px;
+    z-index: 1;
+  }
+  .nav-cancel {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .content {
+    display: block;
+    width: 80%;
+    text-align: center;
+  }
+  .content img {
+    width: 100%;
+  }
+  .content div h1 {
+    font-size: 34px;
+    font-weight: 550;
+  }
+  .content div p {
+    width: 100%;
+  }
+  .search-bar button {
+    width: 75%;
+    height: 50px;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 574px) {
+  .search-bar button {
+    height: 55px;
+  }
+  .search-bar button div h4 {
+    font-size: 9px;
+    padding-top: 10px;
+  }
+  .search-bar button div p {
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 384px) {
+  .search-bar button {
+    height: 60px;
+  }
+}
+@media (max-width: 384px) {
+  .search-bar button {
+    height: 70px;
+  }
+  .search-bar button div h4 {
+    font-size: 7.5px;
+    padding-top: 10px;
+  }
+  .search-bar button div p {
+    font-size: 8px;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+}
+
+/* media query of mid-page  */
+@media (max-width: 1080px) {
+  .mid-page-text h1 {
+    font-size: 21px;
+    letter-spacing: 0.5px;
+  }
+  .mid-page-text p {
+    font-size: 15px;
+  }
+  .first h1 {
+    font-size: 25px;
+  }
+  .first h2 {
+    margin-top: -10px;
+  }
+  .first p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 960px) {
+  .mid-page-text h1 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  .mid-page-text p {
+    font-size: 14px;
+  }
+  .first h1 {
+    font-size: 22px;
+  }
+  .first h2 {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+  .first p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 900px) {
+  .mid-page-text h1 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin: 0 5% 2% 4%;
+    width: 100%;
+  }
+  .mid-page-text p {
+    font-size: 14px;
+    margin: 0 5% 0 8%;
+    width: 100%;
+  }
+  .first h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .first h2 {
+    font-size: 18px;
+    margin-top: -23px;
+  }
+  .first p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 814px) {
+  .images {
+    display: block;
+    margin: 7%;
+  }
+  .first {
+    height: 10px;
+    width: 70%;
+  }
+  .first:hover {
+    height: 250px;
+    width: 70%;
+  }
+  .third-heading h1 {
+    font-size: 20px;
+  }
+  .third-heading p {
+    font-size: 14px;
+  }
+  .facebook img {
+    width: 30px;
+  }
+  .facebook img {
+    width: 30px;
+  }
+}
+@media (max-width: 756px) {
+  .mid-page-text h1 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .mid-page-text p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 680px) {
+  .mid-page-text {
+    display: block;
+    text-align: center;
+  }
+  .mid-page-text h1 {
+    font-size: 15px;
+  }
+  .mid-page-text p {
+    font-size: 12px;
+    margin: 0 10% 0 5%;
+  }
+  .third-page {
+    display: block;
+  }
+  .third-heading {
+    display: block;
+  }
+  .third-heading h1 {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .third-heading p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .t-all {
+    display: block;
+  }
+  .facebook h1 {
+    font-size: 20px;
+  }
+  .f-col {
+    margin: 0 auto;
+    width: 60%;
+  }
+  .s-col {
+    margin: 0 auto;
+    width: 60%;
+  }
+}
+
+@media (max-width: 416px) {
+  .first:hover {
+    height: 270px;
+  }
+  .mid-page-text h1 {
+    font-size: 12px;
+  }
+  .mid-page-text p {
+    font-size: 11px;
+  }
+  .images {
+    width: 100%;
+    margin: 0 40% 0 0%;
+  }
+  .first h1 {
+    font-size: 14px;
+  }
+  .first h2 {
+    font-size: 14px;
+  }
+  .first p {
+    font-size: 10px;
+  }
+  .third-heading h1 {
+    font-size: 16px;
+  }
+  .third-heading p {
+    font-size: 14px;
+    width: 100%;
+  }
+  .f-col {
+    margin: 0 auto;
+    width: 60%;
+  }
+  .s-col {
+    margin: 0 auto;
+    width: 60%;
+  }
+  .t-all .facebook img {
+    width: 25px;
+  }
+  .t-all .facebook h1 {
+    font-size: 20px;
+  }
+}
