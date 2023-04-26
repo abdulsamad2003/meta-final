@@ -7,7 +7,7 @@
   transition: .8s ease-in;
 }
 .main-page {
-  background-image: url(/img/image\ 1.png);
+  background-image: url(./img/image\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -168,7 +168,7 @@
 .first {
   position: relative;
   color: transparent;
-  background-image: url(/img/02.png);
+  background-image: url(./img/02.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 30px;
@@ -200,7 +200,7 @@
 .img4,
 .img6 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/HeroImage.png);
+    url(./img/HeroImage.png);
 }
 
 /* third page css */
